@@ -1,0 +1,53 @@
+html{
+	background-image: url('background.jpg'); 
+	width: 960px;
+	height: 540px;
+
+}
+#logo{
+	width: 210px;
+	margin-left: 1120px;
+	margin-top: -70px;
+	/*background: rgba(0,0,0,0.2);*/
+
+}
+h1{
+	color: rgb(254,199,100);
+	font-family: calibri;
+	font-size: 26pt;
+	margin-left: 60px;
+}
+li{
+	color: rgb(242,178,84);
+	margin-top: 10px;
+	margin-left: 80px;
+	list-style-image: url("square.jpg");
+}
+.list{
+	color: rgb(255,255,255);
+	font-size: 24pt;
+	font-family: calibri;
+}
+.ex{
+	color:rgb(239,226,191);
+	font-size: 20pt;
+	font-family: calibri;
+	height: auto;
+	font-weight: bold;
+	border: solid white 1px;
+
+	background-color: rgba(32,32,30,0.8);
+	margin-top: 10px;
+}
+.tags{
+	color: rgb(254,199,100);
+	font-size: 18pt;
+	font-family: verdana;
+	font-weight: bold;
+}
+footer{
+	color:rgb(158,152,148);
+	font-size: 10pt;
+	padding-left: 1330px;
+	padding-top: 40px;
+}

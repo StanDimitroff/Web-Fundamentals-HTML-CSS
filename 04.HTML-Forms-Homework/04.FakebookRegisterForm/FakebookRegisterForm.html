@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fakebook Register Form</title>
+	<link rel="stylesheet" type="text/css" href="FakebookRegisterForm.css"/>
+</head>
+
+<body>
+	<header>
+		<span id="fake">fakebook<img src="img.png" alt="R symbol" /></span>
+		<br/>
+		<span id="reg" >Registration</span>
+		<br/>
+		<span id="safe">It is safe and it always be!</span>
+	</header>
+	<section>
+		<form method="post">
+			<div id="firstDiv">
+				<fieldset id="one">
+					<legend>None-Important Information</legend>
+					<input type="text" name="firstName" placeholder="First Name"/>
+					<input type="text" name="lastname" placeholder="Last Name"/>
+					<br/>
+					<input type="email" name="email" placeholder="Your Email" pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}"/>
+					<input type="tel" name="phone#" placeholder="Phone Number" pattern="\+(9[976]\d|8[987530]\d|6[987]\d|5[90]\d|42\d|3[875]\d|
+	2[98654321]\d|9[8543210]|8[6421]|6[6543210]|5[87654321]|
+	4[987654310]|3[9643210]|2[70]|7|1)\d{1,14}$"/>
+					<br/>
+					<input type="password" name="password" placeholder="Your Password"/>
+					<input type="url" name="url" placeholder="Website"/>
+					<br/>
+					<label for="btd">Birthday</label>
+					<br/>
+					<input id="btd" type="datetime" name="birthday"/> <!-- supports only in Safari -->
+					<br/>
+					<input type="radio" name="gender" id="gf" value="female" />
+					<label for="gf">Female</label>
+					<input type="radio" name="gender" id="gm" value="male" />
+					<label for="gm">Male</label>
+					<input type="radio" name="gender" id="oth" value="other" />
+					<label for="oth">Other</label>
+				</fieldset>
+				<input id="button1" type="reset" value="Clear Form"/>
+			</div>
+			<div id="secondDiv">
+				<fieldset id="two">
+					<legend>Important Information *required</legend>
+					<select name="country" id="country" required="required">
+						<option value="">Country</option>
+						<option value="Bulgaria">Bulgaria</option>
+						<option value="Romania">Romania</option>
+						<option value="Greece">Greece</option>
+						<option value="Turkey">Turkey</option>
+						<option value="Serbia">Serbia</option>
+					</select>
+					<input class="address" type="text" name="village" placeholder="Village" required="required"/>
+					<input class="address" type="text" name="district" placeholder="District" required="required"/>
+					<br/>
+					<input class="address" type="text" name="address" placeholder="Street" required="required"/>
+					<input class="num" type="text" name="#" placeholder="Nr" required="required"/>
+					<input class="num" type="text" name="floor" placeholder="Floor" required="required"/>
+					<input class="num" type="text" name="app#" placeholder="Ap Nr" required="required"/>
+					<br/>
+					<label for="clr">Door Color</label>
+					<br/>
+					<input class="thirdRow" id="clr" type="color" name="doorColor" />
+					<input class="thirdRow" type="text" name="waterMeter#" placeholder="Water Meter Nr" required="required"/>
+					<select class="thirdRow" name="auntPantiesSize" required="required">
+						<option value="">Aunt Panties' Size</option>
+						<option value="28">28</option>
+						<option value="30">30</option>
+						<option value="32">32</option>
+						<option value="34">34</option>
+						<option value="36">36</option>
+					</select>
+					<br/>
+					<label for="txtar">More Personal Information</label>
+					<br/>
+					<textarea name="more info" id="txtar" placeholder="Give Us More Information!!!" required="required"></textarea>	
+				</fieldset>
+				<input id="button2" type="submit" value="Register"/>
+			</div>
+		</form>
+	</section>
+</body>
+	
+</html>

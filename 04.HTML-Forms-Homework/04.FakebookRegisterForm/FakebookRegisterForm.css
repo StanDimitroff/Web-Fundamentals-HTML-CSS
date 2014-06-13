@@ -1,0 +1,87 @@
+body{
+	background-color: #425F9C;
+	font-family: tahoma;
+}
+header{
+	color: rgb(255,255,255);
+	text-align: center;
+	padding-bottom: 10px;
+}
+#fake{
+	font-size: 60pt;
+	margin-top: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+#reg{
+	font-size: 20pt;
+	font-weight: bold;
+ 	text-align: center;
+
+}
+#safe{
+	font-size: 12pt;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+img{
+	width: 20px;
+}
+section{
+	margin-top: 50px;
+	margin-left: 260px;
+}
+#firstDiv{
+	float: left;
+}
+#secondDiv{
+	float: left;
+	margin-left: 20px;
+}
+#one{
+	width: 336px;
+	box-sizing: border-box;
+}
+#two{
+	width: 415px;
+	box-sizing: border-box;
+}
+legend{
+	text-align: center;
+}
+fieldset{
+	font-weight: bold;
+	color:rgb(255,255,255);
+	font-size: 9pt;
+	border-radius: 10px;
+	height: 200px;
+}
+input,select,textarea{
+	border:1px solid rgb(169,169,169);
+	border-radius: 3px;
+}
+.address,.thirdRow,#country{
+	width: 134px;
+}
+.num{
+	width: 67px;
+}
+textarea{
+	width: 415px;
+	height: 65px;
+}
+#button1{
+	width: 345px;
+	height: 40px;
+	color: #425F9C;
+	font-size: 12pt;
+	margin-top: 20px;
+}
+#button2{
+	width: 450px;
+	height: 40px;
+	color: #425F9C;
+	font-size: 14pt;
+	margin-top: 20px;
+}

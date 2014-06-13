@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flight Order</title>
+	<link rel="stylesheet" type="text/css" href="FlightOrder.css"/>
+ 
+</head>
+<body>
+	<header>
+		<h1>Flight order</h1>
+	</header>
+	<section>
+		<div id="first">
+			<form class="data">
+			<span>From</span>
+			<br/>
+				<select>
+					<option selected="selected">enter a city</option>
+					<option>London</option>
+					<option>Paris</option>
+					<option>Berlin</option>
+					<option>Rome</option>
+					<option>Athens</option>
+					<option>Madrid</option>
+					<option>Vienna</option>
+					<option>Budapest</option>
+					<option>Ankara</option>
+					<option>Sofia</option>
+				</select>
+				<br/>
+				<span>Departure date</span>
+				<br/>
+				<input type="date" value="2014-06-09">
+				<br/>
+				<span>Return date</span>
+				<br/>
+				<input type="date" value="2014-06-13">
+				<br/>
+				<span>12+</span>
+				<span class="number">2-12</span>
+				<span class="number">0-2</span>
+				<br/>
+				<input type="number" value="0" min="0" max="10"/>
+				<input type="number" value="0" min="0" max="10"/>
+				<input type="number" value="0" min="0" max="10"/>
+			</form>
+		</div>
+		<div id="second">
+			<span>To</span>
+			<br/>
+			<form class="data">
+				<select>
+					<option selected="selected">enter a city</option>
+					<option>London</option>
+					<option>Paris</option>
+					<option>Berlin</option>
+					<option>Rome</option>
+					<option>Athens</option>
+					<option>Madrid</option>
+					<option>Vienna</option>
+					<option>Budapest</option>
+					<option>Ankara</option>
+					<option>Sofia</option>
+				</select>
+				<br/>
+				<input type="checkBox" id="chBox" />
+				<label for="chBox">Prefer directs</label>
+				<br/>
+				<span>Time Interval</span>
+				<br/>
+				<input type="time" value="00:20" />
+				<input type="time" value="05:00" />
+				<br/>
+				<span>Time Interval</span>
+				<br/>
+				<input type="time" value="00:20" />
+				<input type="time" value="05:00" />
+				<br/>
+				<span>Choose class</span>
+				<br/>
+				<select>
+					<option>Economy</option>
+					<option>Busines</option>
+					<option>First</option>
+				</select>
+				<br/>
+				<input type="submit" value="Search" />
+			</form>
+		</div>
+	</section>
+</body>
+</html>

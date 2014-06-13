@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Form</title>
+	<link rel="stylesheet" type="text/css" href="SimpleForm.css"/>
+ 
+</head>
+<body>
+	<header>
+		<h1>Enter the system</h1>
+		<p>It is necessary to login in Your account in order to sign in for a course.</p>
+	</header>
+	<section>
+		<div class="register"><p id="question">Are you new? <span>Register</span></p>
+		<form>
+			<input type="text" placeholder = "   User name" required="required" class="data"/>
+			<br/>
+			<input type="email" placeholder = "   Email" required="required" class="data"/>
+			<br/>
+			<input type="password" placeholder = "   Password" required="required" class="data"/>
+			<br/>
+			<input type="password" placeholder = "   Confirm password" required="required" class="data"/>
+			<br/>
+			<input type="submit" value="Register" id="register" />
+		</form>
+		</div>
+		<div class="login">
+			<h2>Already a student? Login</h2>
+			<form>
+				<input type="text" placeholder ="   User name"  required="required" name="userName" autocomplete="on" class="data" />
+				<br/>
+				<input type="password" placeholder = "   Password" required="required" class="data" />
+				<br/>
+				<input type="checkBox" id="chBox"/>
+				<label for= "chBox" id="label">Remember me?</label>
+				<input type="submit" value="Login" id="login" />
+			</form>
+			<br/>
+			<a href="https://softuni.bg/account/forgottenpassword" target="_blank">Forgot Password</a>
+		</div>
+	</section>
+</body>
+</html>

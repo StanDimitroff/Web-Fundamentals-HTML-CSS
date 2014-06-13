@@ -1,0 +1,105 @@
+
+body{
+	background-color: rgb(238,238,238);
+	font-family: 'PT Sans', Tahoma, sans-serif;
+}
+header{
+	margin-left:260px;
+	margin-top: 50px;
+}
+h1{
+	color: #234465;
+	font-size: 24px;
+	font-weight: 700;
+}
+p{
+	font-size: 11pt;
+}
+span{
+	color: #234465;
+	font-weight: bold;
+
+}
+section{
+	margin-left: 165px;
+	margin-top: 100px;
+}
+#question{
+	color: #666666;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: 12px;
+}
+.register{
+	margin-top: 50px;
+	margin-left: 99px;
+}
+#register{
+	width: 140px;
+	height: 40px;
+	font-size: 16px;
+	background: none;
+	text-align: center;
+	color: #234465;
+	border: 2px solid #234465;
+	margin-left: 245px;
+}
+#register:hover{
+	background: #234465;
+	cursor: pointer;
+	color: rgb(255,255,255);
+}
+.login{
+	width: 400px;
+	height: 286px;
+	background-color: rgb(35,68,101);
+	margin-top: -300px;
+	margin-left: 500px;
+	color: rgb(255,255,255);
+}
+h2{
+	font-size: 12pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+.data{
+	width: 370px;
+	height: 30px;
+	margin-left: 12px;
+	margin-bottom: 15px;
+	border: 1px solid #CCCCCC;
+}
+#label{
+	font-size: 10pt;
+	margin-top: -250px;
+}
+#chBox{
+	width: 20px;
+	height: 20px;
+	margin-left: 12px;
+}
+#login{
+	width: 140px;
+	height: 40px;
+	font-size: 16px;
+	background: none;
+	text-align: center;
+	color: rgb(255,255,255);
+	border: 2px solid #FF9C00;
+	margin-left: 109px;
+}
+#login:hover{
+	background: #FF9C00;
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+	color: rgb(255,255,255);
+	float: right;
+	font-size: 11pt;
+	margin-top: -10px;
+	margin-right: 15px;
+}

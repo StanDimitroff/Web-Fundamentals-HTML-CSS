@@ -1,0 +1,35 @@
+header{
+	font-family: tahoma;
+	font-size: 12pt;
+	margin-left: 238px;
+}
+input{
+	width: 200px;
+	border:1px solid #D9EEFA;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin:10px;
+}
+#first,#second,#fourth,#fifth{
+	float: left;
+}
+aside{
+	float:right;
+	font-family: tahoma;
+	border: 1px solid #D9EEFA;
+	margin-right: 210px;
+	height: 510px;
+	margin-top: 10px;
+	background-color: #F7FCFF;
+	text-align: center;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+section{
+	margin-left: 227px;
+}

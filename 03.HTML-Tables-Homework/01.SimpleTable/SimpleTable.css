@@ -1,0 +1,16 @@
+thead{
+	font-size: 30pt;
+}
+img{
+	width: 200px;
+}
+#bolded{
+	font-weight: bold;
+}
+div{
+	font-size: 18pt;
+	margin-left: 10px;
+}
+th{
+	margin-bottom: 20px;
+}

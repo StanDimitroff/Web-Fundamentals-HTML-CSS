@@ -1,0 +1,19 @@
+img{
+	width: 150px;
+	margin: 10px;
+}
+.text{
+	font-size: 40pt;
+	text-align:center;	
+	font-family:tahoma;
+	padding:10px;
+}
+#secondTable{
+	margin: 10px;
+}
+table{
+	border: 1px solid black;
+}
+td{
+	border: 1px solid black;
+}

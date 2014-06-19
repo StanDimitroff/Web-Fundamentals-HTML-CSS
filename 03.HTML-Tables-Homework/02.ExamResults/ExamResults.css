@@ -1,0 +1,14 @@
+table{
+	width: 400px;
+	height: 300px;
+	border:1px solid black;
+}
+thead{
+	font-size: 20pt;
+}
+tfoot{
+	text-align: right;
+}
+th,td{
+	border: 1px solid black;
+}

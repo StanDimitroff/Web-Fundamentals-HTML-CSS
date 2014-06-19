@@ -1,0 +1,77 @@
+th,td{
+	border: 1px solid black;
+}
+#firstTable{
+	width: 450px;
+	height: 550px;
+	border: 1px solid black;
+}
+#secondTable{
+	width: 116px;
+	height: 115px;
+}
+#softuni
+{
+	width: 481px;
+	height: 80px;
+	font-size: 25pt;
+	font-weight: bold;
+	font-family: calibri;
+	color: blue;
+}
+.firstRow{
+	height: 100px;
+	width: 100px;
+}
+.secondRow{
+	width: 100px;
+	height: 100px;
+}
+.thirdRow{
+	width: 100px;
+	height: 120px;
+}
+.firstGroup{
+	width: 238px;
+	height: 100px;
+	color: blue;
+	font-size: 18pt;
+}
+.secondGroup{
+	width: 116px;
+	height: 100px;
+	color: blue;
+	font-size: 18pt;
+}
+#food{
+	width: 115px;
+	height: 118px;
+	color: blue;
+	font-size: 18pt;
+}
+
+#game{
+	width: 237px;
+	height: 118px;
+	color: blue;
+	font-size: 18pt;
+}
+.lastBut{
+	width: 108px;
+	height: 50px;
+	color: blue;
+	font-size: 10pt;
+}
+#beer{
+	width: 359px;
+	height: 117px;
+	color: blue;
+	font-size: 20pt;
+	text-align: right;
+}
+#wc{
+	width: 115px;
+	height: 117px;
+	color: blue;
+	font-size: 18pt;
+}

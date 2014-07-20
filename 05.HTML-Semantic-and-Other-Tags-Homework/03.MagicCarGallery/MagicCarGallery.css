@@ -1,0 +1,33 @@
+html{
+	background-color: black;
+}
+h1{
+	text-align: center;
+	font-family: tahoma;
+	font-size: 32pt;
+	color: #F2C106;
+}
+section{
+	margin-left: 216px;
+}
+iframe{
+	 border: 2px solid #F2C106;
+	 float: left;
+	 margin-top: 49px;
+	 overflow: hidden;
+}
+ul{
+	float: left;
+	
+}
+a{
+	text-decoration: none;
+	font-size: 24pt;
+	font-family: tahoma;
+	font-style: italic;
+	color: white;
+}
+li{
+	list-style-type: none;
+	padding-top: 30px;
+}

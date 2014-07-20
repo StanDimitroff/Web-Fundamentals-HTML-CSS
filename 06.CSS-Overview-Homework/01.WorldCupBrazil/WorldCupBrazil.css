@@ -1,0 +1,159 @@
+/*reseters*/
+body, table{
+	padding: 0;
+	margin: 0;
+}
+/*background*/
+div{
+	width: 1030px;
+	height: 330px;
+	background-color: #00923E;
+	padding-top: 15px;
+}
+/*table*/
+table,td{
+	border-spacing: 0;
+}
+table{
+	width: 1000px;
+	height: 300px;
+	margin:auto;
+}
+	th{
+		height: 40px;
+	}
+tr td:first-child{
+	border-left:  2px solid black;
+}
+tr td:last-child{
+     border-right:  2px solid black;
+ }
+thead tr th{
+    border:1px solid black;
+    border-top:  2px solid black;
+}
+tbody tr:last-of-type td{
+    border-bottom:  2px solid black;
+}
+td{
+	border:1px solid black;
+}
+thead{
+	font-family: tahoma;
+	font-size: 12pt;
+	background-color: #F8C711;
+	}
+thead th:first-child{
+	border-top-left-radius: 10px;
+	text-align: right;
+	border-left:2px solid black;
+}
+thead th:nth-child(3){
+	text-align: left;
+}
+thead th:last-child{
+	border-top-right-radius: 10px;
+	border-right: 2px solid black;
+}
+tbody tr:nth-child(odd){
+	background-color: #FFFFFF;
+}
+tbody tr:nth-child(even){
+	background-color: #C8C8C8;
+}
+table td{
+	font-family: tahoma;
+	font-size: 11pt;
+}
+table td:nth-child(3),table td:nth-child(8){
+	text-align: left;
+	width: 146px;
+	padding-left: 10px;
+}
+table td:nth-child(1),table td:nth-child(6){
+	text-align: right;
+	width: 146px;
+	padding-right: 10px;
+}
+.button{
+	width: 50px;
+	height: 50px;
+}
+#left-bottom{
+	border-bottom-left-radius: 10px;
+}
+#right-bottom{
+	border-bottom-right-radius: 10px;
+}
+/*flags*/
+#brazil-flag{
+	content: url("brazil.png");
+}
+#spain-flag{
+	content: url("spain.png");
+}
+#italy-flag{
+	content: url("italy.png");
+}
+#argentina-flag{
+	content: url("argentina.png");
+}
+#germany-flag{
+	content: url("germany.png");
+}
+#mexico-flag{
+	content: url("mexico.png");
+}
+#netherlands-flag{
+	content: url("netherlands.png");
+}
+#england-flag{
+	content: url("england.png");
+}
+#bosnia-flag{
+	content: url("bosnia.png");
+}
+#portugal-flag{
+	content: url("portugal.png");
+}
+/*drop-down*/
+select:disabled{
+	color: #F82225;
+	background-color:  #dcdcdc;
+	width: 40px;
+	height: 40px;
+	font-weight: bold;
+}
+select:enabled{
+	color:#5A8C2C;
+	width: 40px;
+	height: 40px;
+	font-weight: bold;
+}
+.center{
+	text-align: center;
+	width: 110px;
+}
+/*submit buttons*/
+input[type="submit"]:disabled{
+	background: url(bet-disabled.png);
+	height: 38px;
+	width: 38px;
+	border: none;
+	background-color: none;
+	background-repeat: no-repeat;
+	margin:5px;
+}
+input[type="submit"]:enabled{
+	background: url(bet-enabled.png);
+	height: 38px;
+	width: 38px;
+	border: none;
+	background-color: none;
+	background-repeat: no-repeat;
+	margin: 5px;
+}
+input[type="submit"]:enabled:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}

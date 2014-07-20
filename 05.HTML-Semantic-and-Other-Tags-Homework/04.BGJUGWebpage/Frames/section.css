@@ -1,0 +1,25 @@
+section {
+    margin-left: 35px;
+    float: left;
+    width: 55%;
+}
+.autor{
+	word-spacing: 2px;
+    font-size: 80%;
+    font-family: tahoma;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color: #777777;
+}
+.autor a{
+	text-decoration: underline;
+	color: #777777;
+}
+.autor a:hover, .more a:hover{
+    text-decoration: underline;
+    color: #0F457C;
+}
+.more a{
+    color: #225E9B;
+    text-decoration: none;
+}

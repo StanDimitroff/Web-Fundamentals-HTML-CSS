@@ -1,0 +1,124 @@
+/*header*/
+header h1 {
+    margin-left: 50px;
+}
+   	#upper li{
+        list-style-type: none;
+        display: inline;
+        padding-right: 50px;
+        text-transform: uppercase;
+        font-size: 80%;
+        font-family: verdana;
+        
+    }
+    #searchbox {
+        float: right;
+        margin-right: 40px;
+        padding: 0;
+        margin-top: -38px;
+    }
+    hr{
+    	width: 1430px;
+    	margin-right: 40px;
+    }
+#upper a{
+	color: #8F8F8F;
+	text-decoration: none;
+}
+#upper a:hover{
+	background-color: #F1F1F1;
+	width:50px;
+	height: 20px; 
+}
+/*left aside*/
+#left{
+	float: left;
+	width: 20%;
+}
+#left a,.more a{
+	color: #225E9B;
+	text-decoration: none;
+}
+#left li{
+	margin-top: 10px;
+	font-size: 90%;
+}
+#left a:hover,.more a:hover,.autor a:hover{
+	text-decoration: underline;
+	color: #0F457C;
+}
+aside ul li {
+list-style-type: none;
+font-family: tahoma;
+font-size: 100%;
+margin-top: 5px;
+color: #605EA7;
+}
+/*righ aside*/
+#right{
+	float: left;
+	width: 20%;
+}
+aside .grey {
+    color: #AFAFAF;
+}
+/*section*/
+section {
+    margin-left: 35px;
+    float: left;
+    width: 55%;
+}
+.autor{
+	word-spacing: 2px;
+    font-size: 80%;
+    font-family: tahoma;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color: #777777;
+}
+.autor a{
+	text-decoration: underline;
+	color: #777777;
+}
+/*footer*/
+footer {
+    width: 100%;
+    float: left;
+    height: 200px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+    footer table {
+        width: 100%;
+    }
+        table ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        table th, td {
+            width: 20%;
+            vertical-align: top;
+            text-align: left;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        table th {
+            padding-top: 20px;
+        }
+    footer .grey {
+        color: #5E665C;
+        font-size: 100%;
+    }
+    footer #foot-header {
+        padding-left: 25px;
+        font-size: 130%;
+    }
+    footer a{
+    	color: white;
+    	font-size: 120%;
+        text-decoration: none;
+    }
+     footer li a:hover,#underlined a:hover{
+    	text-decoration: underline;
+    }

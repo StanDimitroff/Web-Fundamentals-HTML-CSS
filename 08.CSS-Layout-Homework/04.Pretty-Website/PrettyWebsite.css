@@ -1,0 +1,132 @@
+#wrapper{
+	background-color: black;
+}
+#container{
+	width: 900px;
+	background-color:white;
+	margin: 0 auto;
+	font-family: Arial;
+	font-size:14px;
+} 
+#heading{
+	color:white;
+	position: absolute;
+	top:200px;
+	left:830px;
+	font-size: 0.9rem;
+}
+header nav{
+	background-color: #E7E7E7;
+	height: 44px;
+	margin-top: -3px;
+}
+ header nav ul{
+	padding: 0;
+	border-bottom: 1px solid white;
+	margin:0;
+}
+header nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	border-right:1px solid white;
+	height: 40px;
+	width: 120px;
+	text-align: center;
+	line-height: 40px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #626161;
+	font-weight: bolder;
+}
+nav ul li:first-child{
+	background-color: #BDBDBD;
+}
+nav ul li #active{
+	color: white;
+}
+section{
+	width:70%;
+	float: left;
+	margin-bottom: 20px;
+}
+section h2{
+	color:#84BE19;
+}
+#welcome{
+	border:1px solid #DBDBDB;
+	width: 85%;
+	border-radius: 10px;
+	padding: 0 15px 10px 15px;
+	margin:20px 0 10px 30px;
+}
+#welcome p{
+	font-size: 0.8rem;
+}
+#products h3{
+	color:#84BE19;
+	font-size: 1.3rem;
+	
+}
+#products{
+	width: 85%;
+	border-radius: 10px;
+	border:1px solid #DBDBDB;
+	margin-left: 30px;
+	padding: 0 15px 10px 15px;
+}
+#products p{
+	font-size: 0.8rem;
+}
+article img{
+	float:left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+article::after{
+	content: "";
+	display: block;
+	clear:both;
+}
+aside{
+	width: 30%;
+	float: left;
+	margin-top: 20px;
+}
+#news{
+	width: 70%;
+	text-align: left;
+	border:1px solid #DBDBDB;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	background-color: #EEEEEE;
+	font-size: 0.8rem;
+	margin-bottom: 30px;
+}
+#news h2, a, #messages h2,a{
+	color:#84BE19;
+}
+#messages{
+	width: 70%;
+	text-align: left;
+	border:1px solid #DBDBDB;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	font-size: 0.8rem;
+}
+footer::before{
+	content: "";
+	display: block;
+	clear: both;
+}
+footer p{
+	background-color: #94CB2F;
+	height: 50px;
+	padding-top: 30px;
+	padding-left: 80px;
+}
+footer p a{
+	color: #292B25;
+}

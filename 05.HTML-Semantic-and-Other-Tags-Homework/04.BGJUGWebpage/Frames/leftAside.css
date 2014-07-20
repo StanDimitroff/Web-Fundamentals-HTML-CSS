@@ -1,0 +1,23 @@
+#left{
+	float: left;
+	width: 20%;
+}
+#left a,.more a{
+	color: #225E9B;
+	text-decoration: none;
+}
+#left li{
+	margin-top: 10px;
+	font-size: 90%;
+}
+#left a:hover,.more a:hover,.autor a:hover{
+	text-decoration: underline;
+	color: #0F457C;
+}
+aside ul li {
+list-style-type: none;
+font-family: tahoma;
+font-size: 100%;
+margin-top: 5px;
+color: #605EA7;
+}

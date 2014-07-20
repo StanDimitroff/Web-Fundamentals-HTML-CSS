@@ -1,0 +1,62 @@
+body{
+	font-weight: bold;
+	font-family: 'PT Sans', Tahoma, sans-serif;
+	font-size: 14px;
+}
+#wrapper{
+	width: 1210px;
+	height: 110px;
+	background-color: #234465;
+}
+#logo{
+	float:left;
+	position: relative;
+	top:20px;
+	left:20px;
+}
+#user{
+	float:left;
+	position: relative;
+}
+input{
+	width:228px;
+	height: 33px;
+	padding: 0px 11px;
+	float: left; 
+	border: none;
+	color: #367CAE;
+	font-size: 1.1em;
+	vertical-align: top;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+button{
+	width: 33px;
+	height: 33px;
+	float: left;
+	vertical-align: top;
+	border: none;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-left: 1px solid rgb(213,213,213);
+	background-color: rgb(255,255,255);
+}
+button:hover{
+		background-color: #367CAE;
+		cursor: pointer;
+		border:1px solid white;
+}
+#menu li{
+	display: inline;
+}
+.drop-down{
+	display: none;
+	background-color: #234465;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.drop-down li:hover, .drop-down li:hover a {
+    color: #fff;
+    background-color: #ff9c00;
+	}
